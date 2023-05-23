@@ -1,0 +1,114 @@
+@import url();
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../font/panthera/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url(../font/beyno/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'Wakanda4ever';
+    src: url(../font/wakanda/Wakanda4Ever-gxg5p.ttf);
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../font/cantarell/Cantarell-Regular.ttf);
+}
+:root{
+    --white-color: #FFFFFF;
+    --gradient-white: #F2CEF2; 
+    --light-blue: #9E91B7;
+    --lighter-blue: #DF99F2;
+    --blue-color: #3D2DA6;
+    --blue-color2: #07338C;
+    --purple-color: #021740;
+}
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Panthera';
+    font-size: 56px;
+    font-weight: 400;
+    color: var(--light-blue);
+}
+h5{
+    font-family: 'Beyno';
+    font-size: 28px;
+    font-weight: 200;
+    color: var(--light-blue);
+}
+p{
+    font-family: 'Cantarell';
+    font-size: 16px;
+    font-weight: 100;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background-color: var(--purple-color);
+    background-image: url(../ASSETS/IllustrationsLogo/Accueil/Pantherhome1..png);
+    background-repeat: no-repeat;
+    background-position: 600px 160px;
+    background-size: 60%;
+    color: white;
+    font-family: 'Cantarell';
+    font-weight: 200;
+    border: none;
+}
+/*Design of navigation */ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Beyno';
+    
+}
+ul{
+    list-style: none;
+    color: #FFFFFF;
+    
+}
+.haut{
+    display: flex;
+}
+/*Design of section black panther */ 
+#panther{
+    margin-top: 150px;
+}
+
+#panther .scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    top: 300px;
+}
+#panther .description{
+    margin-top: 40px;
+    text-align: justify;
+    width:50%;
+}
+/*Design of section Kill Monger */
+#kill-monger .monger-personnage{
+    margin-top: 60px;
+    display: flex;
+    size: 40%;
+} 
+#kill-monger .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 30%;
+}
+/*Design of section Prince */
+#Prince .Prince.content{
+    display: flex;
+}
