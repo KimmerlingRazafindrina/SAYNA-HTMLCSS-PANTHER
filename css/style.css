@@ -90,7 +90,7 @@ ul{
     align-items: center;
     position: fixed;
     left: 20px;
-    top: 300px;
+    top: 260px;
 }
 #panther .description{
     margin-top: 40px;
@@ -101,13 +101,22 @@ ul{
 #kill-monger .monger-personnage{
     margin-top: 60px;
     display: flex;
-    size: 40%;
+    width: 20%;
 } 
+
 #kill-monger .description{
-    margin-bottom: 40px;
+    width: auto;
     text-align: justify;
-    width: 30%;
+    font-size: smaller;
 }
+#kill-monger .killmonger-item img{
+    display: flex;
+    size: 60%;
+    width: auto;
+    padding: auto;
+}
+    
+    
 /*Design of section Prince */
 #Prince .description{
 
@@ -132,7 +141,57 @@ ul{
 }
 /*Design of section Contact */
 .contact-form{
+    background: var(--gradient-white);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 40%;
+    margin-left: 400px;
    
+}
+.contact-form .text{
+    color: black;
+}
+
+/*Design of  Footer */
+.footer-item{
+    display: flex;
+    margin-top: 100;
+}
+.item1{
+    margin-right: 200px;
+    margin-left:100px;
+    position: static;
+}
+
+.item1a{
+    position:sticky;
+}
+.copyright{
+    text-align: right;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: medium;
+    padding: 8px;
+    background: var(--blue-color);
+    
+
+}
+.whitebtn{
+    background: var(--white-color);
+    height: 400px;
+    color: black;
+    
+    
+}
+.text{
+    padding: 10px;
+    font-size: smaller;
+    
+}
+.text .titre{
+    text-align: center;
+
 }
