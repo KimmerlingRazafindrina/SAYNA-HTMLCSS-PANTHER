@@ -32,7 +32,7 @@
 }
 h1{
     font-family: 'Panthera';
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 400;
     color: var(--light-blue);
 }
@@ -52,15 +52,13 @@ p{
     margin: 0 auto;
 }
 body{
-    background-color: var(--purple-color);
-    background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
-    background-repeat: no-repeat;
-    background-position: 600px 160px;
-    background-size:cover;
     color: white;
     font-family: 'Cantarell';
     font-weight: 200;
     border: none;
+}
+html {
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
 }
 /*Design of navigation */ 
 nav{
@@ -81,10 +79,23 @@ ul{
 }
 /*Design of section black panther */ 
 #panther{
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+    background-image: url(../ASSETS/IllustrationsLogo/Accueil/Pantherhome1..png);
+    margin-bottom: 100px;
+    padding-top: 100px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
+#phome1 {
+    margin-left: 250px;
+    margin-top: 20px;
 
-#panther .scroll{
+}
+.scroll{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,38 +103,37 @@ ul{
     left: 20px;
     top: 260px;
 }
+
 #panther .description{
     margin-top: 40px;
     text-align: justify;
-    width:50%;
+    width: 40%;
+    font-size: smaller;
 }
 #panther img{
     width: 100%;
 }
 /*Design of section Kill Monger */
-#kill-monger .monger-personnage{
+#killmonger {
+    width: 60%;
+}
+
+.monger-personnage {
     margin-top: 60px;
     display: flex;
-    width: 20%;
+    padding: 50px;
 } 
-
-#kill-monger .description{
-    width: auto;
-    text-align: justify;
+#killmonger .description {
+    width: 80%;
     font-size: smaller;
+    margin: 5px;
+    padding: 1px;
+    text-align: justify;
 }
-#kill-monger .killmonger-item img{
-    display: flex;
-    size: 60%;
-    width: auto;
-    padding: auto;
-}
-    
-    
-/*Design of section Prince */
-#Prince .description{
 
-}
+
+/*Design of section Prince */
+
 .prince-content{
     display: flex;
     justify-content: space-between;
@@ -143,7 +153,12 @@ ul{
     
 }
 /*Design of section Contact */
-.contact-form{
+#Contact {
+    background-image: url(../ASSETS/IllustrationsLogo/Accueil/Pantherhome7.png);
+    background-size: contain;
+
+}
+.contact-form {
     background: var(--gradient-white);
     text-align: center;
     margin-top: 200px;
@@ -152,11 +167,15 @@ ul{
     margin-left: 400px;
    
 }
-.contact-form .text{
+.contact-form .text {
     color: black;
 }
 
 /*Design of  Footer */
+footer {
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/back_footer.png);
+}
+
 .footer-item{
     display: flex;
     margin-top: 100;
