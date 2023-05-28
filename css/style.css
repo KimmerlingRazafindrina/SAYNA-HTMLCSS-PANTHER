@@ -115,22 +115,44 @@ ul{
 }
 /*Design of section Kill Monger */
 #killmonger {
-    width: 60%;
+    width: 110%;
+    height: 220px;
+    background-color: var(--purple-color);
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
 
-.monger-personnage {
-    margin-top: 60px;
+#killmonger .monger-personnage {
+    margin-top: 10px;
     display: flex;
-    padding: 50px;
+    margin-bottom: 10px;
+
 } 
 #killmonger .description {
-    width: 80%;
+    width: 100%;
     font-size: smaller;
-    margin: 5px;
-    padding: 1px;
+    padding: 10px;
     text-align: justify;
 }
-
+#killmonger .description2 {
+    width: 100%;
+    font-size: smaller;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+#killmonger .monger1{
+    height: 280px;
+    width: 220px;
+}
+#killmonger .monger2{
+    height: 220px;
+    width: 190px;
+}
+#killmonger .monger3{
+    height: 220px;
+    width: 150px;
+}
 
 /*Design of section Prince */
 
@@ -138,16 +160,22 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+#Prince .bose {
+    position: absolute;
+}
+#Prince .bosec {
+    margin-left:  30px;
+}
 #Prince .description{
     margin-left: auto;
     text-align: justify;
     width: 100%;
     margin-right: 400px;
-    font-size: small;
+    font-size: smaller;
 
 }
 
-#prince {
+#Prince {
     margin-right: 50px;
     position: relative;
     
@@ -160,11 +188,12 @@ ul{
 }
 .contact-form {
     background: var(--gradient-white);
+    border-radius: 50px;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    width: 40%;
+    width: 50%;
     margin-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
 }
 .contact-form .text {
@@ -185,10 +214,12 @@ footer {
     margin-left:100px;
     position: static;
 }
-
-.item1a{
-    position:sticky;
+.footer2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
 }
+
 .copyright{
     text-align: right;
 }
@@ -198,13 +229,18 @@ footer {
     font-size: medium;
     padding: 8px;
     background: var(--blue-color);
+    border-radius: 10px;
     
 
 }
 .whitebtn{
     background: var(--white-color);
-    height: 400px;
+    height: 700px;
+    width: 450px;
     color: black;
+    border-radius: 15px;
+    padding-top: 300px;
+    margin-top: 230px;
     
     
 }

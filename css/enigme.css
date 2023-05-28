@@ -51,12 +51,10 @@ p{
     width: 80%;
     margin: 0 auto;
 }
-
-header{
+html {
     background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
-    background-size:100%;
-
 }
+
 body{
     background-color: var(--purple-color);
     background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
@@ -100,8 +98,8 @@ ul{
 #Dora .description{
     margin-top: 100px;
     text-align: justify;
-    width: 70%;
-    font-size: small;
+    width: 50%;
+    font-size: smaller;
     background-repeat: no-repeat;
     margin-left: 200px;
     background-size: 200%;
@@ -111,6 +109,26 @@ ul{
     width: 100%;
     text-align: left;
     margin-left: 100px;
+}
+#Dora .dora-item{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -300px;
+    width: 800px;
+    height: 700px;
+}
+#Dora .backtext1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-top: -250px;
+}
+#alphabet .backtext2 {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -250px;
+    width: 600px;
+    height: 400px;
 }
 
 /*Design of section Alphabet */ 
@@ -151,8 +169,10 @@ ul{
     position: static;
 }
 
-.item1a{
-    position:sticky;
+.footer2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
 }
 .copyright{
     text-align: right;

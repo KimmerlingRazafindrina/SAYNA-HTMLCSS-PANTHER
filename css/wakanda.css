@@ -31,15 +31,21 @@
     box-sizing: border-box;
 }
 h1{
-    font-family: 'Panthera';
-    font-size: 56px;
+    font-family: 'Beyno';
+    font-size: 40px;
     font-weight: 400;
+    color: var(--light-blue);
+}
+h4{
+    font-family: 'Wakanda4ever';
+    font-size: 28px;
+    font-weight: 200;
     color: var(--light-blue);
 }
 h5{
     font-family: 'Beyno';
-    font-size: 28px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
     color: var(--light-blue);
 }
 p{
@@ -51,12 +57,10 @@ p{
     width: 80%;
     margin: 0 auto;
 }
-body{
-    background-color: var(--purple-color);
+html {
     background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
-    background-repeat: no-repeat;
-    background-position: 600px 160px;
-    background-size:cover;
+}
+body{
     color: white;
     font-family: 'Cantarell';
     font-weight: 200;
@@ -79,29 +83,67 @@ ul{
 .haut{
     display: flex;
 }
-/*Design of section black panther */ 
-#panther{
-    margin-top: 150px;
+/*Design of section section1 */ 
+#section1{
+    margin-top: 200px;
+    margin-left: 100px;
+    
 }
-/*Design of section black panther */ 
 
-.origin-content{
-    display: flex;
-    width: 50%;
-
-}
-.description{
+#section1 .descriptionw{
     text-align: justify;
     font-size: smaller;
     width: 40%;
 }
+#section1 .wakanda1 {
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    margin-left: -220px;
+    margin-top: -500px;
+}
 
-
+/*Design of section section2 */
+#section2{
+    margin-top: 300px;
+} 
+#section2 .origin-content{
+    display: flex;
+}
+#section2 .colone1 {
+    width: 100%;
+}
+#section2 .colone2 {
+    width: 100%;
+}
+#section2 .wakanda2 {
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+#section2 .wakanda3 {
+    width: 100%; 
+}
+#section2 .description2 {
+    width: 90%;
+    text-align: justify;
+    font-size: smaller;
+}
+#section2 .description1 {
+    width: 90%;
+    text-align: justify;
+    font-size: smaller;
+}
 
 /*Design of  Footer */
 .footer-item{
     display: flex;
     margin-top: 100;
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/back_footer.png);
+    padding-top: 200px;
+    background-size: 200%;
 }
 .item1{
     margin-right: 200px;
@@ -109,8 +151,10 @@ ul{
     position: static;
 }
 
-.item1a{
-    position:sticky;
+.footer2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
 }
 .copyright{
     text-align: right;
